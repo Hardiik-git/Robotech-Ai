@@ -45,10 +45,101 @@
     display: none;
   }
 }
-
+/* 767px Responsive */
+@media (max-width: 767px) {
+}
 /* 567px Responsive */
 @media (max-width: 567px) {
   .Nav-bar {
     width: 100%;
+  }
+  .Banner-fl {
+    flex-direction: column-reverse;
+  }
+  .Banner-Heading h1,
+  .Heading-h2-styl h2 {
+    font-size: 40px;
+  }
+  .Banner-fl > div {
+    flex: 100%;
+  }
+  .Banner-text-img {
+    width: 100%;
+  }
+  .Companies-fl {
+    gap: 20px;
+    justify-content: center;
+  }
+  .Companies-fl > div {
+    flex: 0 47%;
+  }
+  .Our-Story-Content > div {
+    flex: 100%;
+  }
+  .Our-Story-boxes-fl > div {
+    flex: 0 46%;
+  }
+  .Expertise-Ex-Sec-fl > div,
+  .Ai-Robotics-boxes-fl > div,
+  .Robotech-Impact-boxes-fl > div {
+    flex: 100%;
+  }
+  .banner-para,
+  .Banner-Buttons-fl,
+  .Our-Story-para,
+  .Read-more,
+  .cutting-edge-heading,
+  .expertise-heading,
+  .Ai-Robotics-boxes-fl,
+  .box-heading-h3,
+  .Advance-Ai-Boxes-fl,
+  .testimonial-para,
+  .Robotech-Impact-boxes-fl,
+  .Blogs-boxes-fl,
+  .NewsLetter-fl {
+    gap: 30px;
+  }
+  .Advance-Ai-Boxes-fl > div {
+    flex: 100%;
+  }
+  .Impact-section-fl > div {
+    flex: 100%;
+  }
+  .testimonial-text-box,
+  .testimonial-Images-content-box {
+    width: 100%;
+  }
+  .testimonial-boxes-fl > div {
+    flex: 100%;
+  }
+  .FAQ-fl > div {
+    flex: 100%;
+  }
+  .FAQ-Accordians-sec {
+    margin-top: 30px;
+  }
+  .Blogs-boxes-fl > div {
+    flex: 100%;
+  }
+  .NewsLetter-fl > div {
+    flex: 100%;
+  }
+  .Automation-solution {
+    display: none;
+  }
+  .top-image {
+    margin-left: 20px;
+  }
+  .Robotech-box-padding {
+    padding: 10px !important;
+  }
+  .accordion-toggle {
+    font-size: 14px;
+  }
+  br {
+    display: none;
+  }
+  .Email-Subsribe-fl {
+    flex-direction: column;
   }
 }

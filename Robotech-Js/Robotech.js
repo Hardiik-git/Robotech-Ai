@@ -21,3 +21,23 @@ overLayBg.addEventListener("click", () => {
   openClassAdd.classList.remove("Toggle-Open");
   overLayBg.classList.remove("Toggle-Open");
 });
+
+// Accordians Js
+const toggles = document.querySelectorAll(".accordion-toggle");
+
+toggles.forEach((toggle) => {
+  toggle.addEventListener("click", function (e) {
+    e.preventDefault();
+    const currentItem = toggle.closest(".slide-down");
+
+    // Close other items
+    document.querySelectorAll(".slide-down").forEach((item) => {
+      if (item !== currentItem) {
+        item.classList.remove("active");
+      }
+    });
+
+    // Toggle current
+    currentItem.classList.toggle("active");
+  });
+});

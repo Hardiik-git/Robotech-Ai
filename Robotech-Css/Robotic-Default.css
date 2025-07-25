@@ -8,14 +8,15 @@ li {
 }
 a,
 input,
-textarea {
+textarea,
+button {
   outline: none;
   display: inline-flex;
 }
 p {
   line-height: 30px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
 }
 img {
   display: inline-flex;
