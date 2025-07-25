@@ -142,4 +142,7 @@
   .Email-Subsribe-fl {
     flex-direction: column;
   }
+  .Companies-fl > div {
+    padding: 35px 20px;
+  }
 }
