@@ -41,3 +41,6 @@ toggles.forEach((toggle) => {
     currentItem.classList.toggle("active");
   });
 });
+
+// Animation jS..
+new WOW().init();
