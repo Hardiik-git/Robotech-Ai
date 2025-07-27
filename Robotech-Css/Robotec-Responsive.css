@@ -46,103 +46,104 @@
   }
 }
 /* 767px Responsive */
-@media (max-width: 767px) {
-}
-/* 567px Responsive */
-@media (max-width: 567px) {
-  .Nav-bar {
-    width: 100%;
+@media (max-width: 992px) {
+  /* Default Padding CSS */
+  .Banner-Section-top,
+  .Trusted-Brands-Compnies,
+  .Our-Story-Sec,
+  .Full-Images-sec,
+  .Advance-Section-sec,
+  .AI-Robot-Impact-Sec,
+  .Testimonial-section,
+  .FAQ-Section,
+  .Blogs-Article-Section,
+  .NewsLetter-Section {
+    padding: 20px 0px;
   }
   .Banner-fl {
     flex-direction: column-reverse;
   }
-  .Banner-Heading h1,
-  .Heading-h2-styl h2 {
-    font-size: 40px;
-  }
   .Banner-fl > div {
     flex: 100%;
   }
-  .Banner-text-img {
-    width: 80%;
-  }
-  .Companies-fl {
-    gap: 20px;
-    justify-content: center;
-  }
   .Companies-fl > div {
-    flex: 0 47%;
+    padding: 20px;
   }
-  .Our-Story-Content > div {
+  .Our-Story-Content > div,
+  .Expertise-text-content {
     flex: 100%;
   }
-  .Our-Story-boxes-fl > div {
-    flex: 100%;
-  }
-  .Expertise-Ex-Sec-fl > div,
-  .Ai-Robotics-boxes-fl > div,
-  .Robotech-Impact-boxes-fl > div {
-    flex: 100%;
-  }
-  .banner-para,
-  .Banner-Buttons-fl,
-  .Our-Story-para,
-  .Read-more,
-  .cutting-edge-heading,
-  .expertise-heading,
-  .Ai-Robotics-boxes-fl,
-  .box-heading-h3,
-  .Advance-Ai-Boxes-fl,
-  .testimonial-para,
+  .Our-Story-boxes-fl,
   .Robotech-Impact-boxes-fl,
+  .Testimoanial-wrapper-fl,
+  .FAQ-fl,
   .Blogs-boxes-fl,
   .NewsLetter-fl {
     gap: 30px;
-  }
-  .Advance-Ai-Boxes-fl > div {
-    flex: 100%;
-  }
-  .Impact-section-fl > div {
-    flex: 100%;
-  }
-  .testimonial-text-box,
-  .testimonial-Images-content-box {
-    width: 100%;
-  }
-  .testimonial-boxes-fl > div {
-    flex: 100%;
-  }
-  .FAQ-fl > div {
-    flex: 100%;
-  }
-  .FAQ-Accordians-sec {
     margin-top: 30px;
   }
-  .Blogs-boxes-fl > div {
+  .Robotech-box-padding {
+    padding: 30px !important;
+  }
+  .testimonial-Images-content-box,
+  .testimonial-text-box {
+    width: 100%;
+  }
+  .Expertise-text-content {
+    margin-top: 30px;
+  }
+  .Our-Story-boxes-fl > div,
+  .Advance-Ai-Boxes-fl > div,
+  .testimonial-boxes-fl > div {
+    flex: 45%;
+  }
+  .Impact-section-fl > div {
+    flex: 0 50%;
+  }
+  .Expertise-Ex-Sec-fl > div,
+  .Robotech-Impact-boxes-fl > div,
+  .Blogs-boxes-fl > div,
+  .FAQ-fl > div,
+  .NewsLetter-fl > div {
     flex: 100%;
   }
-  .NewsLetter-fl > div {
+  .Bottom-image {
+    width: 280px;
+  }
+  br {
+    display: none;
+  }
+}
+/* 567px Responsive */
+@media (max-width: 567px) {
+  .Banner-Heading h1,
+  .Heading-h2-styl h2 {
+    font-size: 38px;
+  }
+  .Bottom-image {
+    width: 180px;
+  }
+  .top-image {
+    margin-left: 40px;
+  }
+  .Ai-Robotics-boxes-fl,
+  .Companies-fl {
+    gap: 30px;
+  }
+  .Ai-Robotics-boxes-fl > div,
+  .Impact-section-fl > div {
     flex: 100%;
   }
   .Automation-solution {
     display: none;
   }
-  .top-image {
-    margin-left: 20px;
-  }
-  .Robotech-box-padding {
-    padding: 10px !important;
-  }
   .accordion-toggle {
     font-size: 14px;
-  }
-  br {
-    display: none;
   }
   .Email-Subsribe-fl {
     flex-direction: column;
   }
   .Companies-fl > div {
-    padding: 35px 20px;
+    flex: 0 44%;
   }
 }
