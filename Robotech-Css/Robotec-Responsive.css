@@ -57,7 +57,8 @@
   .Testimonial-section,
   .FAQ-Section,
   .Blogs-Article-Section,
-  .NewsLetter-Section {
+  .NewsLetter-Section,
+  .padding-tb {
     padding: 20px 0px;
   }
   .Banner-fl {
@@ -78,7 +79,8 @@
   .Testimoanial-wrapper-fl,
   .FAQ-fl,
   .Blogs-boxes-fl,
-  .NewsLetter-fl {
+  .NewsLetter-fl,
+  .Footer-Quick-Links-fl {
     gap: 30px;
     margin-top: 30px;
   }
@@ -104,7 +106,8 @@
   .Robotech-Impact-boxes-fl > div,
   .Blogs-boxes-fl > div,
   .FAQ-fl > div,
-  .NewsLetter-fl > div {
+  .NewsLetter-fl > div,
+  .Footer-Quick-Links-fl > div {
     flex: 100%;
   }
   .Bottom-image {
