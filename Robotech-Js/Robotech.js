@@ -44,3 +44,11 @@ toggles.forEach((toggle) => {
 
 // Animation jS..
 new WOW().init();
+
+// Hide Code + Not Work F12 Button
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+document.onkeydown = function (e) {
+  if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+    return false;
+  }
+};
