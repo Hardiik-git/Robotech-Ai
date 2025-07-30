@@ -11,14 +11,14 @@
   animation-iteration-count: infinite;
 }
 .animated.hinge {
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 .animated.flipOutX,
 .animated.flipOutY,
 .animated.bounceIn,
 .animated.bounceOut {
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 /* @keyframes bounceIn {
   from,
