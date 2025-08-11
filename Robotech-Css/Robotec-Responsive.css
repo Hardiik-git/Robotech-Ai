@@ -113,6 +113,9 @@
   .Bottom-image {
     width: 280px;
   }
+  .footer-copyright-fl {
+    justify-content: center;
+  }
   br {
     display: none;
   }
